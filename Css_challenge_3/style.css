@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container-img{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-name{
+    text-align: center;
+    color : #F94F21;
+}
+
+.container-p{
+    text-align: center;
+    color : #7C7574;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    margin-top: 20px;
+    color: #7C7574;
+}
+
+.pricing-card{
+    width: 250px;
+    height: 500px;
+    background-color: #363636;
+    border-radius: 8px;
+
+}
+
+.card-header{
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.card-header h2{
+   margin-bottom: 20px;
+}
+
+.icon{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.price-block{
+    width: 80%;
+    text-align: center; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #4b4a4a;
+    text-transform: uppercase;
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #F94F21;
+}
+
+.period{
+    font-size: 12px;
+    color: #838080;
+    text-transform: uppercase;
+}
+
+.features{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.features li {
+    padding-bottom: 20px;
+    color: #b4b1b1;
+    font-size: 12px;
+}
+
+.join-btn{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    border: 2px solid #df4747;
+    background-color: #363636;
+    border-radius: 8px;
+    color: #ee7e7e;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+.warrior{
+    background-color: #df474725;
+    border: #df4747 2px solid;
+    color: #ffffff;
+    position: relative;
+}
+
+.warrior .price-block{
+    background-color: #58565673;
+}
+
+.warrior button{
+    background-color: #df474710;
+}
+
+.popular-tag{
+    width: 70%;
+    margin: 0 auto;
+text-align: center;
+/* border: #fffbfb 2px solid; */
+border-radius: 20px;
+font-size: 12px;
+background-color: #e5e90a;
+color: #111111;
+padding: 5px;
+margin-top: -16px;
+}
+
+
+.champion{
+    background-color: #e5e90a25;
+    border: #e5e90a80 1px solid;
+    color: #ffffff;
+    position: relative;
+}
+
+.champion .price-block{
+    background-color: #58565673;
+}
+
+.champion button{
+    background-color: #e5e90a00;
+    border: #e5e90a80 1px solid;
+}
